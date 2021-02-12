@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
  * @author Naichuan Zhang
  */
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class CommonResult<T> {
 
