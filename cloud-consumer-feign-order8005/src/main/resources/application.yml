@@ -1,0 +1,10 @@
+server:
+  port: 8005
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7000.com:7000/eureka/,http://eureka7002.com:7002/eureka/
+logging:
+  level:
+    com.atguigu.springcloud.service.PaymentFeignService: debug
